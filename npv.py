@@ -9,5 +9,12 @@ if t<=99:
     npv=(pv*(1+r)**t)
     nnpv=(format_currency(npv,'USD',locale='en_US'))
     print('In',t,'year(s), you will have',nnpv)
+while t>99:
+    print('Please try a different number')
+    if t<=99:
+        npv=(pv*(1+r)**t)
+        nnpv=(format_currency(npv,'USD',locale='en_US'))
+        print('In',t,'year(s), your net present value will be',nnpv)
+        break
 
 
