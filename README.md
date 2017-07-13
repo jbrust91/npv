@@ -3,7 +3,7 @@ This is a calculator that can be used to get the net present value of future inv
 ## Installation
 `pip3 install babel` or `pip install babel`
 ## Usage
-'from babel.numbers import format_currency
+`from babel.numbers import format_currency
 pv=int(input('What is Your Present Value:'))
 r=float(input('What is Your Interst Rate (As Decimal):'))
 t=int(input('What is your Number of Periods (1-99):'))
